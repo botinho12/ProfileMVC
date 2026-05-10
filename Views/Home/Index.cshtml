@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="home">
+
+    <div class="home-text">
+
+        <h1>Olá, eu sou Vinicius 👋</h1>
+
+        <h3>Desenvolvedor Backend .NET</h3>
+
+        <p>
+            Atualmente estudo desenvolvimento backend utilizando
+            ASP.NET MVC, Entity Framework e APIs REST.
+            Estou constantemente criando projetos para evoluir
+            minhas habilidades e construir um portfólio profissional.
+        </p>
+
+        <a class="btn btn-primary btn-lg" asp-controller="Projects" asp-action="Index">
+            Ver Projetos
+        </a>
+
+    </div>
+
+    <div class="home-image">
+        <img src="@Url.Content("~/img/foto.jpeg")" alt="Minha Foto" />
+    </div>
+
+</section>
