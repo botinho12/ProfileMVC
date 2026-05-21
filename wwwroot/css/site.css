@@ -273,3 +273,22 @@ body {
 
   gap: 30px;
 }
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+}
+
+.custom-card .icon {
+  color: #0077b5;           
+  margin-bottom: 0.5rem;
+}
+
+/* Cores específicas por rede */
+.custom-card:nth-child(1) .icon { color: #ea4335; } /* Email */
+.custom-card:nth-child(2) .icon { color: #0077b5; } /* LinkedIn */
+.custom-card:nth-child(3) .icon { color: #333; }    /* GitHub */
