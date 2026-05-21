@@ -292,3 +292,10 @@ body {
 .custom-card:nth-child(1) .icon { color: #ea4335; } /* Email */
 .custom-card:nth-child(2) .icon { color: #0077b5; } /* LinkedIn */
 .custom-card:nth-child(3) .icon { color: #333; }    /* GitHub */
+
+
+.card-link {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit;        /* Mantém a cor original do seu texto/ícone */
+  display: block;        /* Garante que o link ocupe o espaço todo do card */
+}
